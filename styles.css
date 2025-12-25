@@ -1,20 +1,20 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
 
-.gallery {
-    display: flex;
-    flex-wrap: wrap; /* Allows images to wrap to the next line */
-    justify-content: center; /* Centers the images */
-    padding: 10px; /* Optional padding for the gallery */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
 }
 
-.gallery img {
-    max-width: 25vw; /* Maximum width of each image */
-    margin: 10px; /* Margin around each image */
-    border: 3px solid #000; /* Border around each image */
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3); /* Box shadow for depth */
-    object-fit: cover; /* Ensures images cover their area without distortion */
+.cards img {
+  max-width: 25vw;
+  margin: 10px;
+  border: 3px solid rgb(0, 0, 0);
+  box-shadow: rgba(0, 0, 0, 0.3) 3px 3px 8px 0px;
+  object-fit: cover;
 }
